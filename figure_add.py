@@ -4,7 +4,7 @@ import os
 import numpy as np
 
 
-file_path = '/home/xh/Documents/all.xlsx'
+file_path = './all.xlsx'
 print os.path.exists(file_path)
 df = pd.read_excel(file_path, sep=' ', column_name=['cell_permeability', 'solubility'])
 # print df

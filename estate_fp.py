@@ -33,7 +33,7 @@ def write_excel(two_list, save_txt_dir):
     writer.save()
 
 if __name__=='__main__':
-    txt_path = '/home/xh/Documents/egfr/egfr_all.txt'
+    txt_path = './egfr_all.txt'
     smiles_list = read_smiles_txt(txt_path)
     all_fp = []
     for smiles in smiles_list:
@@ -45,7 +45,7 @@ if __name__=='__main__':
     labels = kmeans.labels_
     print ('labels', labels)
     two_list = [smiles_list, labels]
-    save_dir = '/home/xh/Desktop/egfr/'
+    save_dir = './egfr/'
     write_excel(two_list, save_dir)
 
 
