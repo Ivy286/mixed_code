@@ -28,7 +28,7 @@ df_ = pd.DataFrame({'cids': cids, 'gscore': scores})
 df_.to_csv(file_dir + 'temp.csv')
 '''
 
-ic_path = '/home/xh/Documents/research/gout/fpocket_docking.xlsx'
+ic_path = './gout/fpocket_docking.xlsx'
 print(os.path.exists(ic_path))
 
 df = pd.read_excel(ic_path, sheet_name='Sheet')

@@ -2,7 +2,7 @@ import pubchempy as pcp
 import pandas as pd
 import os
 
-path = '/home/xh/Documents/research/bj_ret/renova_hydra/'
+path = './bj_ret/renova_hydra/'
 cid_path = path + 'data_ks_profiling5.xlsx'
 print(os.path.exists(cid_path))
 

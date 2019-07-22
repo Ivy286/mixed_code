@@ -58,7 +58,7 @@ def fix_mutation_site(name_list, muta_list):
 
 
 if __name__ == "__main__":
-    path = '/home/xh/Documents/research/bj_ret/renova_hydra/'
+    path = './bj_ret/renova_hydra/'
     fasta_list = os.listdir(path + 'seqs/second_seq/')
     csv_path = path + 'test.csv'
     print(os.path.exists(csv_path))

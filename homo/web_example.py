@@ -4,8 +4,8 @@ import os
 import numpy as np
 
 
-file_path1 = '/home/xh/dope1.xlsx'
-file_path2 = '/home/xh/0.xlsx'
+file_path1 = './dope1.xlsx'
+file_path2 = './0.xlsx'
 print os.path.exists(file_path1)
 df1 = pd.read_excel(file_path1, sep=' ', column_name=['label', 'web', 'single',  'mult', 'loop'])
 # df2 = pd.read_excel(file_path1, sep=' ', column_name=['# RES', 'TAL'])

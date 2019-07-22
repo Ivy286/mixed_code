@@ -33,6 +33,6 @@ def autodock_evaluation(path):
     plt.savefig('pk.jpg')
 
 
-file_path = '/home/xh/Desktop/xxx.xlsx'
+file_path = './xxx.xlsx'
 autodock_evaluation(file_path)
 

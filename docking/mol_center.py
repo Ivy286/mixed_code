@@ -1,7 +1,7 @@
 from base_model import cut_spec_mol2, is_not_empty
 
-file_path = '/home/xh/2ckj_ligand.mol2'
-write_path = '/home/xh/exercise.txt'
+file_path = './2ckj_ligand.mol2'
+write_path = './exercise.txt'
 cut_spec_mol2(file_path, write_path)
 
 with open(write_path, 'r') as f:

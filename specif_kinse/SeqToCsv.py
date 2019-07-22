@@ -26,7 +26,7 @@ def read_fasta(pdb_id):
 
 
 if __name__=="__main__":
-    seq_path = '/home/xh/Documents/research/bj_ret/seqs/'
+    seq_path = './bj_ret/seqs/'
     smiles = ['CC1=CC[C@H](C(C)=C)CC1']*24
     Molecule_id = ['1']*24
     pdb_id = read_seqfile(seq_path)
@@ -36,7 +36,7 @@ if __name__=="__main__":
     # name = ['Molecule_ID', 'Smiles', 'Protein_ID', 'Sequence']
     result = pd.DataFrame({'Molecule_ID': Molecule_id, 'Smiles': smiles, 'Protein_ID':pdb_id, 'Sequence': seq_id})
     # print(result)
-    write_path = '/home/xh/Documents/research/bj_ret/test.csv'
+    write_path = './bj_ret/test.csv'
     # print(path)
     result.to_csv(write_path, index=False)
 

@@ -4,7 +4,7 @@ import os
 import numpy as np
 
 
-file_path1 = '/home/xh/Desktop/homo/egfr/models/dope/dope.xlsx'
+file_path1 = './homo/egfr/models/dope/dope.xlsx'
 # file_path2 = '/home/xh/0.xlsx'
 print os.path.exists(file_path1)
 df1 = pd.read_excel(file_path1, sep=' ', column_name=['label', 'egfr', 'swiss', 'single',  'multi', 'loop1', 'loop2', 'multi1', 'loop3', 'loop4', 'multi2', '4lqm'])

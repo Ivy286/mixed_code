@@ -20,7 +20,7 @@ SeqIO.write(rec1, 'test.fasta', 'fasta')
 # new_seq = mutable_seq.toseq()
 # print(new_seq)
 
-path = '/home/xh/Documents/research/bj_ret/renova_hydra/seqs/second_seq/'
+path = './bj_ret/renova_hydra/seqs/second_seq/'
 # df = pd.read_excel(path + 'NIHMS751504-supplement-3_use.xlsx', usecols=[0, 3])
 df = pd.read_excel(path + 'NIHMS751504-supplement-3_us4e.xlsx')
 
